@@ -1,0 +1,35 @@
+.lista_categorias {
+  margin: 24px 0;
+  display: block;
+  font-family: var(--font);
+}
+
+.lista_categorias label {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.lista_categorias select {
+  width: 97%;
+  background-color: var(--blanco);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: none;
+  padding: 15px 20px;
+}
+
+@media (max-width: 966px){
+  .lista_categorias select {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px){
+  .lista_categorias select {
+    width: 97%;
+  }
+}

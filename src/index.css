@@ -1,0 +1,16 @@
+:root {
+  --font: "Rubik", sans-serif;
+  --gris: #4f4d4d;
+  --blanco: #e9fad6;
+  --verde: rgb(92, 250, 98);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

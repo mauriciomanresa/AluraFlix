@@ -1,0 +1,22 @@
+.nuevo_video {
+  margin: 24px 0;
+  font-family: var(--font);
+}
+
+.nuevo_video label {
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nuevo_video input {
+  width: 90%;
+  background-color: var(--blanco);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px;
+  font-size: 20px;
+  border: none;
+  padding: 15px 20px;
+  outline-color: var(--gris);
+}

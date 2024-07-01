@@ -1,0 +1,19 @@
+.area {
+  width: 100%;
+  padding: 2px 60px;
+  box-sizing: border-box;
+}
+
+.area h3 {
+  font-family: var(--font);
+  font-size: 26px;
+  color: var(--verde);
+}
+
+.videos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 20px;
+}

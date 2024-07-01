@@ -1,0 +1,18 @@
+.foot {
+  background-color: var(--gris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot h2 {
+  color: var(--blanco);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h2 img {
+  width: 50px;
+}
