@@ -9,7 +9,7 @@ import Pie from "./componentes/Pie";
 function App() {
   return (
     <VideoProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/AluraFlix">
         <Cabeza />
         <Routes>
           <Route path="/" exact element={<Inicio />} />
